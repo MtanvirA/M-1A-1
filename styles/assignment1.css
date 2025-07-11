@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-/* raleway font */
+/* inter font */
 .inter-normal{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -110,5 +110,42 @@ header{
 .pro-name{
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
-    
+
+}
+
+/* touch section */
+.tou-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 70px 0px;
+
+}
+.tou-feed{
+    width: 50%;
+}
+.tou-form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tou-form textarea{
+    min-height: 100px;
+}
+.tou-form input, .tou-form textarea{
+    padding: 20px 30px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.tou-form label{
+    padding: 0px;
+    font-size: 18px;
+}
+.tou-title{
+    font-weight: 700;
+    font-size: 90px;
 }
