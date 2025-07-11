@@ -50,6 +50,7 @@ header{
     display: flex;
     padding: 50px 150px;
     justify-content:space-between;
+    color: #4E47FF;
 }
 
 .banner-middle{
