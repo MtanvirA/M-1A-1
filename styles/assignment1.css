@@ -31,8 +31,7 @@ body{
 
 /* main style */
 main {
-    /* max-width: 1140px; */
-    margin: 0px auto;
+    margin: 110px 160px;
 }
 
 /* header styles */
@@ -55,3 +54,30 @@ header{
     text-align: center;
     
 }
+
+/* action section */
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a-image{
+    border-radius: 50px;
+    width: 400px;
+    height: 330px;
+}
+.a-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #252432;
+}
+
+.a-subtitle
+{
+    color: #252432;
+    font-size: 25px;
+}
+
+/* production styles */
+
